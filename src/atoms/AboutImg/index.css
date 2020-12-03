@@ -1,0 +1,10 @@
+#pp {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: none;
+  pointer-events: none;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+}
