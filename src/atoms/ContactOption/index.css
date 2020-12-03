@@ -1,0 +1,20 @@
+.contact-option {
+  text-decoration: none;
+  margin:10px auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+.contact-option img {
+  width:40px;
+  height: auto;
+  margin: 0 8px;
+}
+
+.contact-option span {
+  display: block;
+  margin-top: 8px
+}
