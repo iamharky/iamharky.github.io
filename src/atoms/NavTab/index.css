@@ -1,0 +1,22 @@
+.tab {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333;
+  padding: 10px 6px;
+  font-size: 1em;
+  font-weight: bold;
+  width:100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.tab:hover {
+  background-color: #5bb;
+  color: white;
+}
+
+.active-tab {
+  background-color: #399;
+  color: white;
+}
