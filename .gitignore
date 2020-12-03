@@ -1,0 +1,6 @@
+.cache
+dist
+node_modules
+debug.log
+yarn.lock
+.env
