@@ -3,7 +3,7 @@ import NavTab from '../../atoms/NavTab';
 import './index.css';
 
 const index = () => {
-  const [activeTab, setActiveTab] = useState('mabout');
+  const [activeTab, setActiveTab] = useState('about');
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
