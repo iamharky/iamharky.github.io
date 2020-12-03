@@ -1,0 +1,28 @@
+.project-description {
+  flex: 2;
+  padding: 6px 10px;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  display: block;
+}
+
+.description {
+  text-align: left;
+  display: block;
+}
+
+hr {
+  width: 100%;
+	border: none;
+	height: 2px;
+	background-color: #dedede;
+}
+
+.built-with {
+  margin-right: 8px;
+}

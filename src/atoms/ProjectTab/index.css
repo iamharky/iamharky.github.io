@@ -1,0 +1,24 @@
+.project-tab {
+  width: 50%;
+  border: none;
+  padding: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ee6e73;
+  background-color: white;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  outline: none;
+  transition-duration: .3s;
+}
+
+.project-tab:hover {
+  color: white;
+  background-color: #ee9ea6;
+  cursor: pointer;
+}
+
+.active {
+  color: white;
+  background-color: #ee6e73;
+}

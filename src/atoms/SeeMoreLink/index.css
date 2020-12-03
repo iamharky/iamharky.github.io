@@ -1,0 +1,9 @@
+.see-more {
+  text-decoration: none;
+  color: #222;
+  display: block;
+  font-weight: 600;
+  text-align: right;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
