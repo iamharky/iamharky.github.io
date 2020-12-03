@@ -1,0 +1,6 @@
+.skill-row {
+  margin: 8px auto 4px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

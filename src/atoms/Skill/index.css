@@ -1,0 +1,10 @@
+.skill {
+  display: inline-block;
+  margin: 0 4px 4px;
+  cursor: pointer;
+  padding: 2px 6px;
+  box-shadow: 0 0 1px grey;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

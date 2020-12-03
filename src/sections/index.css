@@ -1,0 +1,15 @@
+.section {
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#skills {background-color: wheat}
+
+#contact {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
