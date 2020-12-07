@@ -36,9 +36,22 @@ const Projects = () => {
             </>
           </Project>
           <Project
+            src={require('../../public/images/stranger.png')}
+            name="StranGer"
+            links={[
+              {url: 'https://github.com/iamharky/stran-ger', isSourceCode: true},
+              {url: 'https://stran-ger.netlify.app/', isSourceCode: false},
+            ]}
+            description="An app that uses Deezer API over RapidApi to search for music, fetch & show popular music, artist, and album data.">
+            <Skill name="React JS" color="#222" bgColor="#61DAFB" />
+          </Project>
+          <Project
             src="https://raw.githubusercontent.com/iamharky/ReactJS-Chart-Generator/master/chart-generator.gif"
             name="Chart Generator"
-            links={[{url: 'https://github.com/iamharky/ReactJS-Chart-Generator', isSourceCode: false}]}
+            links={[
+              {url: 'https://github.com/iamharky/ReactJS-Chart-Generator', isSourceCode: true},
+              {url: 'https://codepen.io/harky/full/xxbQRaz', isSourceCode: false},
+            ]}
             description="A chart generator app built with ReactJS & ChartJS. Users can create charts with 6 different types, name them and download them.">
             <>
               <Skill name="React JS" color="#222" bgColor="#61DAFB" />
@@ -48,15 +61,11 @@ const Projects = () => {
           <Project
             src="https://raw.githubusercontent.com/iamharky/Etch-A-Sketch/master/etch-a-sketch.gif"
             name="Etch A Sketch"
-            links={[{url: 'https://iamharky.github.io/Etch-A-Sketch/', isSourceCode: false}]}
+            links={[
+              {url: 'https://github.com/iamharky/Etch-A-Sketch', isSourceCode: true},
+              {url: 'https://iamharky.github.io/Etch-A-Sketch/', isSourceCode: false},
+            ]}
             description="A simple Sketch app built with Vanilla JS.">
-            <Skill name="JavaScript" color="#222" bgColor="#FF0" />
-          </Project>
-          <Project
-            src="https://raw.githubusercontent.com/iamharky/kanban/master/kanban.gif"
-            name="Kanban App"
-            links={[{url: 'https://github.com/iamharky/kanban', isSourceCode: false}]}
-            description="A simple Kanban app with Drag-and-Drop that increases working efficiency by organizing tasks. Users can create new tasks, move the tasks between zones and delete them. The app stores tasks in localStorage for continuous usage.">
             <Skill name="JavaScript" color="#222" bgColor="#FF0" />
           </Project>
           <SeeMoreLink />
@@ -80,7 +89,7 @@ const Projects = () => {
               The game also has 5 difficulty levels and each difficulty level has 7 levels.">
             <>
               <Skill name="Cordova" color="#FFF" bgColor="#333" />
-              <Skill name="Vue JS" color="#FFF" bgColor="#41B883" />
+              <Skill name="React JS" color="#222" bgColor="#61DAFB" />
             </>
           </Project>
           <Project
