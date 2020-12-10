@@ -16,13 +16,16 @@ const Projects = () => {
           <Project
             src={require('../../public/images/blog.png')}
             name="Fireblog"
-            links={[{url: 'https://blog-harky.web.app/', isSourceCode: false}]}
+            links={[
+              {url: 'https://github.com/iamharky/fire-blog', isSourceCode: true},
+              {url: 'https://blog-harky.web.app/', isSourceCode: false},
+            ]}
             description="A personal blog app with Firebase authentication and Firestore. Owners can create, edit and delete posts. Owners can set post title, excerpt and, with the help of Quill JS, post content.">
             <>
               <Skill name="React JS" color="#222" bgColor="#61DAFB" />
-              <Skill name="Quill JS" color="#222" bgColor="#FF0" />
-              <Skill name="Firebase" color="#222" bgColor="#FF0" />
-              <Skill name="Materialize CSS" color="#FFF" bgColor="#EB7077" />
+              <Skill name="Quill JS" color="#FFF" bgColor="#222" />
+              <Skill name="Firebase" color="#222" bgColor="#FBC02D" />
+              <Skill name="Firestore" color="#222" bgColor="#FBC02D" />
             </>
           </Project>
           <Project
@@ -43,7 +46,10 @@ const Projects = () => {
               {url: 'https://stran-ger.netlify.app/', isSourceCode: false},
             ]}
             description="An app that uses Deezer API over RapidApi to search for music, fetch & show popular music, artist, and album data.">
-            <Skill name="React JS" color="#222" bgColor="#61DAFB" />
+            <>
+              <Skill name="React JS" color="#222" bgColor="#61DAFB" />
+              <Skill name="SASS" color="#FFF" bgColor="#BF4080" />
+            </>
           </Project>
           <Project
             src="https://raw.githubusercontent.com/iamharky/ReactJS-Chart-Generator/master/chart-generator.gif"
@@ -55,7 +61,7 @@ const Projects = () => {
             description="A chart generator app built with ReactJS & ChartJS. Users can create charts with 6 different types, name them and download them.">
             <>
               <Skill name="React JS" color="#222" bgColor="#61DAFB" />
-              <Skill name="Chart JS" color="#222" bgColor="#FF0" />
+              <Skill name="Chart JS" color="#FFF" bgColor="#FF6384" />
             </>
           </Project>
           <Project
@@ -79,7 +85,12 @@ const Projects = () => {
               {url: 'https://play.google.com/store/apps/details?id=dassist.harkytech.diyetassist', isSourceCode: false},
             ]}
             description="A practical calculation tool for Dietitians & Dietitian candidates. Built with React Native for mobile platforms. Available and has 2.5K+ downloads in Play Store.">
-            <Skill name="React Native" color="#222" bgColor="#61DAFB" />
+            <>
+              <Skill name="React Native" color="#222" bgColor="#61DAFB" />
+              <Skill name="Firebase" color="#222" bgColor="#FBC02D" />
+              <Skill name="Firestore" color="#222" bgColor="#FBC02D" />
+              <Skill name="RevenueCat" color="#FFF" bgColor="#f2545b" />
+            </>
           </Project>
           <Project
             src="https://lh3.googleusercontent.com/zCzeOdqDIJe5C7gkPyG-fKlbTAdLz6LZplfpszffxpYcHRp1W5pnUluGfzDf6jvOBMg=s180-rw"
