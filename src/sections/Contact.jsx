@@ -21,25 +21,25 @@ const Contact = () => {
 
       <div>
         <ContactOption
-          url="https://api.whatsapp.com/send?phone=+905438691895"
-          src={require('../../public/images/whatsapp.png')}
-          alt="whatsapp"
-        />
-
-        <ContactOption url="https://t.me/iamharky" src={require('../../public/images/telegram.svg')} alt="telegram" />
-
-        <ContactOption
           url="https://www.github.com/iamharky"
           src={require('../../public/images/github.svg')}
           alt="github"
         />
 
-        <ContactOption url="https://codepen.io/harky" src={require('../../public/images/codepen.png')} alt="codepen" />
-
         <ContactOption
           url="https://www.linkedin.com/in/harky"
           src={require('../../public/images/linkedin.svg')}
           alt="linkedin"
+        />
+
+        <ContactOption url="https://codepen.io/harky" src={require('../../public/images/codepen.png')} alt="codepen" />
+
+        <ContactOption url="https://t.me/iamharky" src={require('../../public/images/telegram.svg')} alt="telegram" />
+
+        <ContactOption
+          url="https://api.whatsapp.com/send?phone=+905438691895"
+          src={require('../../public/images/whatsapp.png')}
+          alt="whatsapp"
         />
       </div>
     </div>
