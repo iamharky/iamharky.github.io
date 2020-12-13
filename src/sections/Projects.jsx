@@ -52,15 +52,15 @@ const Projects = () => {
             </>
           </Project>
           <Project
-            src="https://raw.githubusercontent.com/iamharky/ReactJS-Chart-Generator/master/chart-generator.gif"
+            src="https://raw.githubusercontent.com/iamharky/Chart-Generator/master/chart-generator.gif"
             name="Chart Generator"
             links={[
-              {url: 'https://github.com/iamharky/ReactJS-Chart-Generator', isSourceCode: true},
-              {url: 'https://codepen.io/harky/full/xxbQRaz', isSourceCode: false},
+              {url: 'https://github.com/iamharky/Chart-Generator', isSourceCode: true},
+              {url: 'https://iamharky.github.io/Chart-Generator', isSourceCode: false},
             ]}
-            description="A chart generator app built with ReactJS & ChartJS. Users can create charts with 6 different types, name them and download them.">
+            description="A chart generator app built with Svelte & ChartJS. Users can create charts with 6 different types, name them and download them.">
             <>
-              <Skill name="React JS" color="#222" bgColor="#61DAFB" />
+              <Skill name="Svelte" color="#FFF" bgColor="#FF3E00" />
               <Skill name="Chart JS" color="#FFF" bgColor="#FF6384" />
             </>
           </Project>
